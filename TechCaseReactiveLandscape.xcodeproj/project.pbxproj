@@ -44,6 +44,7 @@
 		4318FF99299E574A001F6595 /* TechCaseReactiveLandscapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechCaseReactiveLandscapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4318FF9D299E574A001F6595 /* TechCaseReactiveLandscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCaseReactiveLandscapeUITests.swift; sourceTree = "<group>"; };
 		4318FF9F299E574A001F6595 /* TechCaseReactiveLandscapeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCaseReactiveLandscapeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43B8831B29ACE013007BBE61 /* WWDC22 Sound Design Challenge */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WWDC22 Sound Design Challenge"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 				4318FF81299E5748001F6595 /* TechCaseReactiveLandscape */,
 				4318FF92299E574A001F6595 /* TechCaseReactiveLandscapeTests */,
 				4318FF9C299E574A001F6595 /* TechCaseReactiveLandscapeUITests */,
+				43B8831B29ACE013007BBE61 /* WWDC22 Sound Design Challenge */,
 				4318FF80299E5748001F6595 /* Products */,
 			);
 			sourceTree = "<group>";
