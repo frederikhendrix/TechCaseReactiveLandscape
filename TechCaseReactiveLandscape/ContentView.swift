@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var player = AudioPlayer(name: "KickDrumLoop", type: "aif")
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Button("Tap Me"){
+                print("button tap")
+            }
         }
         .padding()
     }
