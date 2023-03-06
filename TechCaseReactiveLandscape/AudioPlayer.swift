@@ -18,6 +18,8 @@ class AudioPlayer: ObservableObject {
             print("success audio file: \(name)")
             
             do{
+                try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+                try AVAudioSession.sharedInstance().setActive(true)
                 player = try AVAudioPlayer(contentsOf: url)
                 player.prepareToPlay()
                 player.setVolume(volume, fadeDuration: 0)
@@ -27,6 +29,5 @@ class AudioPlayer: ObservableObject {
         }else{
             print("failed")
         }
-        player.play()
     }
 }

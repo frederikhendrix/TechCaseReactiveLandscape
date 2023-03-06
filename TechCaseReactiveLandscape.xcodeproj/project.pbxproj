@@ -14,6 +14,7 @@
 		4318FF94299E574A001F6595 /* TechCaseReactiveLandscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FF93299E574A001F6595 /* TechCaseReactiveLandscapeTests.swift */; };
 		4318FF9E299E574A001F6595 /* TechCaseReactiveLandscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FF9D299E574A001F6595 /* TechCaseReactiveLandscapeUITests.swift */; };
 		4318FFA0299E574A001F6595 /* TechCaseReactiveLandscapeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FF9F299E574A001F6595 /* TechCaseReactiveLandscapeUITestsLaunchTests.swift */; };
+		43984C4829B09E6C00D085E9 /* RickRollSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43984C4729B09E6C00D085E9 /* RickRollSound.mp3 */; };
 		43B8831D29AE3B12007BBE61 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8831C29AE3B12007BBE61 /* AudioPlayer.swift */; };
 		43B8832F29AE5009007BBE61 /* KickDrumLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43B8832E29AE5009007BBE61 /* KickDrumLoop.aif */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		4318FF99299E574A001F6595 /* TechCaseReactiveLandscapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechCaseReactiveLandscapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4318FF9D299E574A001F6595 /* TechCaseReactiveLandscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCaseReactiveLandscapeUITests.swift; sourceTree = "<group>"; };
 		4318FF9F299E574A001F6595 /* TechCaseReactiveLandscapeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCaseReactiveLandscapeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43984C4729B09E6C00D085E9 /* RickRollSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RickRollSound.mp3; sourceTree = "<group>"; };
 		43B8831C29AE3B12007BBE61 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		43B8832E29AE5009007BBE61 /* KickDrumLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = KickDrumLoop.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				43B8832E29AE5009007BBE61 /* KickDrumLoop.aif */,
+				43984C4729B09E6C00D085E9 /* RickRollSound.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			files = (
 				43B8832F29AE5009007BBE61 /* KickDrumLoop.aif in Resources */,
 				4318FF8A299E574A001F6595 /* Preview Assets.xcassets in Resources */,
+				43984C4829B09E6C00D085E9 /* RickRollSound.mp3 in Resources */,
 				4318FF87299E574A001F6595 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TechCaseReactiveLandscape/Preview Content\"";
+				DEVELOPMENT_TEAM = 82KQDN7WAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -461,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TechCaseReactiveLandscape/Preview Content\"";
+				DEVELOPMENT_TEAM = 82KQDN7WAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
