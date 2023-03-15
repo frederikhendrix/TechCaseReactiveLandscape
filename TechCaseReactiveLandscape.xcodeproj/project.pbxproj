@@ -14,7 +14,15 @@
 		4318FF94299E574A001F6595 /* TechCaseReactiveLandscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FF93299E574A001F6595 /* TechCaseReactiveLandscapeTests.swift */; };
 		4318FF9E299E574A001F6595 /* TechCaseReactiveLandscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FF9D299E574A001F6595 /* TechCaseReactiveLandscapeUITests.swift */; };
 		4318FFA0299E574A001F6595 /* TechCaseReactiveLandscapeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FF9F299E574A001F6595 /* TechCaseReactiveLandscapeUITestsLaunchTests.swift */; };
-		43984C4829B09E6C00D085E9 /* RickRollSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43984C4729B09E6C00D085E9 /* RickRollSound.mp3 */; };
+		43984C5429C1C91800D085E9 /* RingFirstFourLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C4B29C1C91800D085E9 /* RingFirstFourLoop.aif */; };
+		43984C5529C1C91800D085E9 /* SnareDrumLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C4C29C1C91800D085E9 /* SnareDrumLoop.aif */; };
+		43984C5629C1C91800D085E9 /* SinePulseLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C4D29C1C91800D085E9 /* SinePulseLoop.aif */; };
+		43984C5729C1C91800D085E9 /* SynthPulseLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C4E29C1C91800D085E9 /* SynthPulseLoop.aif */; };
+		43984C5829C1C91800D085E9 /* ShakerLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C4F29C1C91800D085E9 /* ShakerLoop.aif */; };
+		43984C5929C1C91800D085E9 /* SilenceLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C5029C1C91800D085E9 /* SilenceLoop.aif */; };
+		43984C5A29C1C91800D085E9 /* RingLastFourLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C5129C1C91800D085E9 /* RingLastFourLoop.aif */; };
+		43984C5B29C1C91800D085E9 /* SineMelodyLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C5229C1C91800D085E9 /* SineMelodyLoop.aif */; };
+		43984C5C29C1C91800D085E9 /* ChimeMelodyLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43984C5329C1C91800D085E9 /* ChimeMelodyLoop.aif */; };
 		43B8831D29AE3B12007BBE61 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8831C29AE3B12007BBE61 /* AudioPlayer.swift */; };
 		43B8832F29AE5009007BBE61 /* KickDrumLoop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 43B8832E29AE5009007BBE61 /* KickDrumLoop.aif */; };
 /* End PBXBuildFile section */
@@ -47,7 +55,15 @@
 		4318FF99299E574A001F6595 /* TechCaseReactiveLandscapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechCaseReactiveLandscapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4318FF9D299E574A001F6595 /* TechCaseReactiveLandscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCaseReactiveLandscapeUITests.swift; sourceTree = "<group>"; };
 		4318FF9F299E574A001F6595 /* TechCaseReactiveLandscapeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCaseReactiveLandscapeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		43984C4729B09E6C00D085E9 /* RickRollSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RickRollSound.mp3; sourceTree = "<group>"; };
+		43984C4B29C1C91800D085E9 /* RingFirstFourLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = RingFirstFourLoop.aif; sourceTree = "<group>"; };
+		43984C4C29C1C91800D085E9 /* SnareDrumLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnareDrumLoop.aif; sourceTree = "<group>"; };
+		43984C4D29C1C91800D085E9 /* SinePulseLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = SinePulseLoop.aif; sourceTree = "<group>"; };
+		43984C4E29C1C91800D085E9 /* SynthPulseLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = SynthPulseLoop.aif; sourceTree = "<group>"; };
+		43984C4F29C1C91800D085E9 /* ShakerLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShakerLoop.aif; sourceTree = "<group>"; };
+		43984C5029C1C91800D085E9 /* SilenceLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = SilenceLoop.aif; sourceTree = "<group>"; };
+		43984C5129C1C91800D085E9 /* RingLastFourLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = RingLastFourLoop.aif; sourceTree = "<group>"; };
+		43984C5229C1C91800D085E9 /* SineMelodyLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = SineMelodyLoop.aif; sourceTree = "<group>"; };
+		43984C5329C1C91800D085E9 /* ChimeMelodyLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChimeMelodyLoop.aif; sourceTree = "<group>"; };
 		43B8831C29AE3B12007BBE61 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		43B8832E29AE5009007BBE61 /* KickDrumLoop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = KickDrumLoop.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,8 +154,16 @@
 		43B8832D29AE4F65007BBE61 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				43984C5329C1C91800D085E9 /* ChimeMelodyLoop.aif */,
+				43984C4B29C1C91800D085E9 /* RingFirstFourLoop.aif */,
+				43984C5129C1C91800D085E9 /* RingLastFourLoop.aif */,
+				43984C4F29C1C91800D085E9 /* ShakerLoop.aif */,
+				43984C5029C1C91800D085E9 /* SilenceLoop.aif */,
+				43984C5229C1C91800D085E9 /* SineMelodyLoop.aif */,
+				43984C4D29C1C91800D085E9 /* SinePulseLoop.aif */,
+				43984C4C29C1C91800D085E9 /* SnareDrumLoop.aif */,
+				43984C4E29C1C91800D085E9 /* SynthPulseLoop.aif */,
 				43B8832E29AE5009007BBE61 /* KickDrumLoop.aif */,
-				43984C4729B09E6C00D085E9 /* RickRollSound.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -248,9 +272,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43984C5929C1C91800D085E9 /* SilenceLoop.aif in Resources */,
+				43984C5B29C1C91800D085E9 /* SineMelodyLoop.aif in Resources */,
+				43984C5729C1C91800D085E9 /* SynthPulseLoop.aif in Resources */,
+				43984C5C29C1C91800D085E9 /* ChimeMelodyLoop.aif in Resources */,
 				43B8832F29AE5009007BBE61 /* KickDrumLoop.aif in Resources */,
+				43984C5429C1C91800D085E9 /* RingFirstFourLoop.aif in Resources */,
 				4318FF8A299E574A001F6595 /* Preview Assets.xcassets in Resources */,
-				43984C4829B09E6C00D085E9 /* RickRollSound.mp3 in Resources */,
+				43984C5829C1C91800D085E9 /* ShakerLoop.aif in Resources */,
+				43984C5A29C1C91800D085E9 /* RingLastFourLoop.aif in Resources */,
+				43984C5629C1C91800D085E9 /* SinePulseLoop.aif in Resources */,
+				43984C5529C1C91800D085E9 /* SnareDrumLoop.aif in Resources */,
 				4318FF87299E574A001F6595 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
